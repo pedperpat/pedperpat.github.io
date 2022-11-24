@@ -16,7 +16,7 @@ const exp = [
     cardImage: "https://media-exp1.licdn.com/dms/image/C4D0BAQHMkah3IuGAmg/company-logo_200_200/0/1572871364295?e=2147483647&v=beta&t=vCt0zazhRzBnsf2g7r_V2dBeMd-Hp2v6DrvftycBE5k",
     place: "Promociones Azarbe SA",
     time: "(Julio, 2018 - Abril, 2021)",
-    desp: "<li>Desarrollo de soluciones para Microsoft Dynamics NAV</li> <li>Trabajé en pequeños desarrollos para dotar de nuevas funciones al ERP Microsoft Dynamics NAV.</li> <li>Gestión documental y de contabilidad.</li> <li>Ofrecía ayuda y soporte ténico a usuarios.</li>",
+    desp: "<li>Desarrollo de soluciones para Microsoft Dynamics NAV.</li> <li>Trabajé en pequeños desarrollos para dotar de nuevas funciones al ERP Microsoft Dynamics NAV.</li> <li>Gestión documental y de contabilidad.</li> <li>Ofrecía ayuda y soporte ténico a usuarios.</li>",
   },
   {
     title: "Programador técnico",
