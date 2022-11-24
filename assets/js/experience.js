@@ -22,7 +22,7 @@ const exp = [
     title: "Programador técnico",
     cardImage: "https://media-exp1.licdn.com/dms/image/C4E0BAQFuXso1f67LwQ/company-logo_200_200/0/1519892093522?e=2147483647&v=beta&t=aUAWqjT56ghrTxVhGqCXg3XdBDl2Izrbt4nl-WF47is",
     place: "Datanet Corentia SL",
-    time: "(Julio, 2017 - Julio, 2018 )",
+    time: "(Julio, 2017 - Julio, 2018)",
     desp: "<li>Aprendí a desarrollar en Microsoft Dynamics NAV.</li><li>Desarrollos pequeños para clientes.</li>",
   },
 ];
