@@ -55,7 +55,7 @@ const showCards2 = () => {
   );
   experiencecards.innerHTML = output;
 };
-//document.addEventListener("DOMContentLoaded", showCards2);
+document.addEventListener("DOMContentLoaded", showCards2);
 
 // Volunteership Cards
 
@@ -104,7 +104,7 @@ const showCards = () => {
   );
   volunteership.innerHTML = output;
 };
-//document.addEventListener("DOMContentLoaded", showCards);
+document.addEventListener("DOMContentLoaded", showCards);
 
 // Hackathon Section
 
@@ -222,4 +222,4 @@ const showCards3 = () => {
   );
   hackathonsection.innerHTML = output;
 };
-//document.addEventListener("DOMContentLoaded", showCards3);
+document.addEventListener("DOMContentLoaded", showCards3);
