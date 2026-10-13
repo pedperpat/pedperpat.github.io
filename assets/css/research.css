@@ -262,26 +262,26 @@ body {
 
 @media only screen and (max-width: 850px) {
   .researchMainWrapper {
-    margin-top: 150px;
+    margin-top: 2rem;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .researchMainWrapper {
-    margin-top: 180px;
+    margin-top: 2rem;
   }
 }
 
 @media only screen and (max-width: 624px) {
   .researchMainWrapper {
-    margin-top: 120px;
+    margin-top: 2rem;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .researchMainWrapper {
-    margin-top: 85px;
-    margin-bottom: 100px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -330,29 +330,12 @@ body {
   }
 }
 
-@media only screen and (max-width: 285px) and (max-height: 655px) {
+@media only screen and (max-width: 711px) {
   .imgResponsive .imgRes {
-    margin: -1.32em -1.26em 1.3em -1.3em;
-    width: 406.7px;
-    height: 260px;
-    border-radius: 10px;
-  }
-}
-
-@media only screen and (max-width: 375px) and (max-height: 575px) {
-  .imgResponsive .imgRes {
-    margin: -1.4em -1em 1.3em -1.3em;
-    width: 406.7px;
-    height: 260px;
-    border-radius: 10px;
-  }
-}
-
-@media only screen and (max-width: 415px) and (max-height: 737px) {
-  .imgResponsive .imgRes {
-    margin: -1.6em 1em 1.3em -1.4em;
-    width: 406.7px;
-    height: 260px;
+    margin: 0 auto 1em auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
     border-radius: 10px;
   }
 }

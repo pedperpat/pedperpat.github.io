@@ -919,72 +919,36 @@ form {
 }
 
 
-/* to make the navbar open full screen on mobile */
+/* Navbar mobile collapse styles */
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+      background-color: #2b2a2A;
+      padding: 15px 0;
+      border-radius: 8px;
+  }
+  html[light-mode="light"] .navbar-collapse {
+      background-color: #ffffff;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  html[light-mode="dark"] .navbar-collapse {
+      background-color: #2b2a2A;
+  }
+  #navbar-content {
+      margin-top: 0;
+      height: auto;
+      text-align: center;
+      transform: none;
+      align-items: center;
+  }
+  .bike {
+      display: none;
+  }
+}
 
 @media (max-width: 768px) {
-  .collapse navbar-collapse {
-      display: flex;
-      justify-content: center;
-  }
   .footer {
       padding-top: 10px;
-  }
-  #navbar-content {
-      margin-top: -200px;
-      height: 120vh;
-      text-align: center;
-      transform: translateY(25%);
-  }
-  #btnScrollToTop {
-      display: none;
-  }
-}
-
-@media (max-width: 414px) {
-  .collapse navbar-collapse {
-      display: flex;
-      justify-content: center;
-  }
-  #navbar-content {
-      margin-top: -180px;
-      height: 120vh;
-      text-align: center;
-      transform: translateY(25%);
-  }
-  #btnScrollToTop {
-      display: none;
-  }
-}
-
-@media (max-width: 375px) {
-  .collapse navbar-collapse {
-      display: flex;
-      justify-content: center;
-  }
-  #navbar-content {
-      margin-top: -180px;
-      height: 120vh;
-      text-align: center;
-      transform: translateY(25%);
-  }
-  #btnScrollToTop {
-      display: none;
-  }
-}
-
-@media (max-width: 320px) {
-  .collapse navbar-collapse {
-      display: flex;
-      justify-content: center;
-  }
-  #navbar-content {
-      margin-top: -140px;
-      height: 130vh;
-      text-align: center;
-      transform: translateY(25%);
-  }
-  .footer {
-      margin-top: 6rem;
   }
   #btnScrollToTop {
       display: none;
@@ -1008,9 +972,16 @@ Send button micro animation
 
 #main {
   position: relative;
-  margin-left: 4rem;
-  width: 270px;
-  
+  margin-left: 0;
+  width: 100%;
+  max-width: 270px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  #main {
+    margin-left: 0;
+  }
 }
  button{
 width: 15rem;
