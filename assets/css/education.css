@@ -46,29 +46,31 @@ html {
 
  @media (max-width: 767px) {
   .dropdown1 {
-    position: absolute;
+    position: relative !important;
     text-align: center;
-    padding-right: 1.2rem;
+    padding-right: 0;
     z-index: 3;
-    padding-left: 3.5%;
+    padding-left: 0;
+    margin-top: 1rem;
   }
   .dropdown2 {
-    position: absolute;
+    position: relative !important;
     text-align: center;
-    padding-top: 10rem;
-    padding-left: 3.5%;
+    padding-top: 1rem;
+    padding-left: 0;
     z-index: 3;
   }
   .godown {
-    position: absolute;
+    position: relative !important;
     z-index: 1;
-    padding-top: 8rem;
+    padding-top: 1rem;
+    text-align: center;
   }
 }
 
 .sect {
   height: auto;
-  max-width: 120%;
+  max-width: 100%;
   background-size: cover;
   background-position: center center;
   object-fit: fill;
@@ -127,12 +129,12 @@ p {
 }
 @media only screen and (max-width: 767px) {
   .edSection {
-    margin-top: 400px;
+    margin-top: 2rem;
   }
 }
 @media only screen and (max-width: 600px) {
   .edSection {
-    margin-top: 50px; /*changed the margin-to from 250px to 50px to eliminate space */
+    margin-top: 2rem;
   }
 }
 /* Card Hover Effect */
@@ -553,77 +555,6 @@ blockquote {
   
 }
 
-    /* Media Query  header/footer */
-
-    @media (max-width: 768px) {
-      .collapse navbar-collapse {
-          display: flex;
-          justify-content: center;
-      }
-      .footer {
-          padding-top: 10px;
-      }
-      #navbar-content {
-          margin-top: -200px;
-          height: 120vh;
-          text-align: center;
-          transform: translateY(25%);
-      }
-      #btnScrollToTop {
-          display: none;
-      }
-    }
-    
-    @media (max-width: 414px) {
-      .collapse navbar-collapse {
-          display: flex;
-          justify-content: center;
-      }
-      #navbar-content {
-          margin-top: -180px;
-          height: 120vh;
-          text-align: center;
-          transform: translateY(25%);
-      }
-      #btnScrollToTop {
-          display: none;
-      }
-    }
-    
-    @media (max-width: 375px) {
-      .collapse navbar-collapse {
-          display: flex;
-          justify-content: center;
-      }
-      #navbar-content {
-          margin-top: -180px;
-          height: 120vh;
-          text-align: center;
-          transform: translateY(25%);
-      }
-      #btnScrollToTop {
-          display: none;
-      }
-    }
-    
-    @media (max-width: 320px) {
-      .collapse navbar-collapse {
-          display: flex;
-          justify-content: center;
-      }
-      #navbar-content {
-          margin-top: -140px;
-          height: 130vh;
-          text-align: center;
-          transform: translateY(25%);
-      }
-      .footer {
-          margin-top: 6rem;
-      }
-      #btnScrollToTop {
-          display: none;
-      }
-    }
 
 /*  Content */
 @media only screen and (max-width: 450px) {

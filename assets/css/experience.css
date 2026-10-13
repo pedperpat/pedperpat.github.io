@@ -26,17 +26,6 @@ html {
 }
 /*Main section*/
 
-@media (max-width: 766px) {
-  .dropdown {
-    position: absolute;
-    padding-right: 3.5rem;
-  }
-  .godown {
-    z-index: 1;
-    padding-top: 8rem;
-    padding-left: 3.3rem;
-  }
-}
 .head-upper {
   background: var(--bg-txt-img);
   background-clip: text;
@@ -50,27 +39,27 @@ section > div {
 
 @media only screen and (max-width: 991px) {
   section {
-    height: 80vh;
+    height: auto;
   }
 }
-@media only screen and (max-width: 867px) {
+
+@media (max-width: 768px) {
   section {
-    height: 70vh;
+    height: auto !important;
   }
-}
-@media only screen and (max-width: 767px) {
-  section {
-    height: 95vh;
+  section > div {
+    padding-top: 2rem !important;
   }
-}
-@media only screen and (max-width: 550px) {
-  section {
-    height: 90vh;
+  .dropdown {
+    position: relative !important;
+    padding-right: 0 !important;
+    margin-top: 1rem;
   }
-}
-@media only screen and (max-width: 400px) {
-  section {
-    height: 85vh;
+  .godown {
+    z-index: 1;
+    padding-top: 1rem !important;
+    padding-left: 0 !important;
+    text-align: center;
   }
 }
 
@@ -80,6 +69,14 @@ section > div {
   padding-left: 4rem;
   padding-right: 4rem;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .main,
+  .main1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 .section {
@@ -232,7 +229,7 @@ ul ol {
 
 @media only screen and (max-width: 767px) {
   .card1 .featured-image {
-    height: 400px;
+    height: 220px;
     width: 100%;
   }
 }
@@ -251,6 +248,12 @@ ul ol {
   margin: 0.5em 0;
   margin-top: 5rem;
   color: var(--text);
+}
+
+@media (max-width: 768px) {
+  .heading1 {
+    margin-top: 2rem;
+  }
 }
 
 @media (min-width: 675px) {
@@ -489,9 +492,9 @@ ul ol {
 }
 @media screen and (max-width: 768px) {
   .blog-slider {
-    min-height: 500px;
+    min-height: auto;
     height: auto;
-    margin: 180px auto;
+    margin: 20px auto;
   }
 }
 @media screen and (max-height: 500px) and (min-width: 992px) {
@@ -592,8 +595,10 @@ ul ol {
 }
 @media screen and (max-width: 768px) {
   .blog-slider__img {
-    transform: translateY(-50%);
-    width: 90%;
+    transform: none;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 576px) {
@@ -611,9 +616,9 @@ ul ol {
 }
 @media screen and (max-width: 768px) {
   .blog-slider__content {
-    margin-top: -80px;
+    margin-top: 15px;
     text-align: center;
-    padding: 0 30px;
+    padding: 0 15px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -683,7 +688,7 @@ a:link {
 
 @media (max-width: 768px) {
   .mcard {
-    margin-bottom: 12rem !important;
+    margin-bottom: 2rem !important;
   }
 }
 /*Hackathon Section Ends*/

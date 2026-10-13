@@ -21,7 +21,7 @@ html[data-theme="dark"] {
 }
 html {
   overflow-x: hidden;
-  max-width: 120%;
+  max-width: 100%;
   height: auto;
 }
 body {
@@ -101,15 +101,18 @@ body[light-mode="dark"] .light-mode-button span:nth-child(2) {
   background-color: #141516;
 }
 
-@media (max-width: 766px) {
+@media (max-width: 768px) {
   .dropdown {
-    position: absolute;
-    padding-right: 3.5rem;
+    position: relative !important;
+    padding-right: 0 !important;
+    margin-top: 1rem;
+    text-align: center;
   }
   .godown {
     z-index: 1;
-    padding-top: 15rem;
-    padding-left: 3.3rem;
+    padding-top: 1rem !important;
+    padding-left: 0 !important;
+    text-align: center;
   }
 }
 
@@ -514,13 +517,13 @@ ul {
 
 @media only screen and (max-width: 767px) {
   .project-box {
-    margin-top: 18rem;
+    margin-top: 2rem;
   }
 }
 
 @media only screen and (max-width: 450px) {
   .project-box {
-    margin-top: 18rem;
+    margin-top: 2rem;
   }
 }
 
