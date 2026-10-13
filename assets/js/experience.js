@@ -9,7 +9,7 @@ const exp = [
     cardImage: "https://media-exp1.licdn.com/dms/image/C560BAQFhUk1_Iw0ReQ/company-logo_200_200/0/1519884618573?e=2147483647&v=beta&t=s82mlhTgl-UXCEOT4uo-6e41XRGfQFqvaJ_LG-zzl-s",
     place: "IM Projects",
     time: "(Abril, 2021 - actualidad)",
-    desp: "<li>Desarrollo extensiones para Microsoft Business Central.</li> <li>Ayudo a crear y mejorar aplicaciones Android.</li> <li>He creado una aplicación para Android denominada IM-Kitchen y desde la cual se puede visualizar toda la información de Ingredientes, Recetas y Platos en Microsoft Dynamics 365 Business Central tanto para operaciones de Backoffice como de planta.</li> <li>He desarrollado una aplicación de reconocimiento y match de documentos mediante visión por IA</li>",
+    desp: "<li>Desarrollo e implemento extensiones para Microsoft Dynamics 365 Business Central.</li> <li>Creo aplicaciones Android e implemento mejoras de roadmap.</li> <li>He creado una aplicación para Android denominada IM-Kitchen y desde la cual se puede visualizar toda la información de Ingredientes, Recetas y Platos en Microsoft Dynamics 365 Business Central tanto para operaciones de Backoffice como de planta.</li> <li>He desarrollado una aplicación de reconocimiento y match de documentos mediante visión por IA.</li>",
   },
   {
     title: "Programador técnico",
