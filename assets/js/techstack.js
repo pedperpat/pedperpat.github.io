@@ -63,7 +63,7 @@ const displayTechStacksCards = () => {
     <div class="row page-content techstackcards" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="0" data-aos-duration="400"> 
         <div class="tech_card">
             <div class="card_img">
-                <img src ="${stack.langImage}" class="featured_image">
+                <img src ="${stack.langImage}" class="featured_image" onerror="this.src='assets/images/techstack-page/javascript.png'">
             </div>
             <div class="card_header">
                 <header>
