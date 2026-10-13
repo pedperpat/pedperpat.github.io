@@ -7,7 +7,6 @@ const i18nData = {
     nav_experience: "Experiencia",
     nav_research: "Investigación",
     nav_education: "Educación",
-    nav_blogs: "Blogs",
 
     // Home Page
     home_greeting: "Hola",
@@ -67,7 +66,6 @@ const i18nData = {
     nav_experience: "Experience",
     nav_research: "Research",
     nav_education: "Education",
-    nav_blogs: "Blogs",
 
     // Home Page
     home_greeting: "Hello",

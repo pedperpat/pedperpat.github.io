@@ -27,7 +27,6 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html" data-i18n="nav_experience">Experience</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html" data-i18n="nav_research">Research</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html" data-i18n="nav_education">Education</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="https://hashnode.com/" target="_blank" data-i18n="nav_blogs">Blogs</a></li>
    <li class="nav-item d-flex align-items-center mx-2">
      <select id="lang_select" class="custom-select custom-select-sm" style="width: auto; background-color: transparent; color: inherit; border: 1px solid rgba(255,255,255,0.3); font-size: 0.85rem;" onchange="changeLanguage(this.value)">
        <option value="es" style="color: #000;">ES 🇪🇸</option>
