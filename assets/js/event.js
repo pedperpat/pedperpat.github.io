@@ -40,7 +40,7 @@ $(document).ready(function () {
       output += `
     <div class="swiper-slide">
     <div class="img-container">
-      <img src=${event[x].image} alt="" class="img-fluid" />
+      <img src=${event[x].image} alt="" class="img-fluid" onerror="this.src='assets/images/event/image1.jpg'" />
     </div>
     <div class="container arrow_contain">
       <div class="row justify-content-center">

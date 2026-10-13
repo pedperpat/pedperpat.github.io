@@ -58,11 +58,11 @@ const fillData = () => {
       absbox_for_linkedin2,
     }) =>
       (output += `<tr data-aos="zoom-in-left"> 
-                <td class="imgCol"><img src="${image1}" class="rImg"></td>
+                <td class="imgCol"><img src="${image1}" class="rImg" onerror="this.src='assets/images/dp_male.svg'"></td>
                 <td class = "referenceTitleName">
                     <div>
                         <span class="imgResponsive">
-                            <img src="${image1}" class="imgRes">
+                            <img src="${image1}" class="imgRes" onerror="this.src='assets/images/dp_male.svg'">
                         </span>
                     </div>
                     <img src="https://img.icons8.com/fluency/48/000000/quote-left.png"/>
@@ -78,7 +78,7 @@ const fillData = () => {
                         <td class = "referenceTitleName">
                             <div>
                                 <span class="imgResponsive">
-                                    <img src="${image2}" class="imgRes">
+                                    <img src="${image2}" class="imgRes" onerror="this.src='assets/images/dp_male.svg'">
                                 </span>
                             </div>
                             <img src="https://img.icons8.com/fluency/48/000000/quote-left.png"/>
@@ -91,7 +91,7 @@ const fillData = () => {
                             
                            
                         </td>
-                        <td class="imgCol"><img src="${image2}" class="rImg1"></td>
+                        <td class="imgCol"><img src="${image2}" class="rImg1" onerror="this.src='assets/images/dp_male.svg'"></td>
                     </tr>`)
   );
   referenceTable.innerHTML = output;
